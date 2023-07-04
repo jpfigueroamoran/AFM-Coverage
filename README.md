@@ -1,6 +1,6 @@
-# Agencia de Seguros XYZ
+# AFM Seguros
 
-¡Bienvenido(a) a la Agencia de Seguros XYZ!
+¡Bienvenido(a) a la AFM Seguros!
 
 ## Descripción
 Somos una agencia de seguros comprometida en proteger lo que más valoras. Nuestro objetivo es brindar tranquilidad y seguridad a nuestros clientes a través de una amplia gama de servicios de seguros diseñados para cubrir todas sus necesidades.
