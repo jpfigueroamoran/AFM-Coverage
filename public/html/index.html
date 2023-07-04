@@ -28,10 +28,15 @@
                     aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse ms-lg-5  mt-4 mt-lg-0" id="navbarSupportedContent">
                     <ul class="navbar-nav align-items-center">
-                        <li class="nav-item"><a class="nav-link" href="#"><span>Home</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span>Product</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span>Pricing</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span>Contact</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span>Inicio</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span>Seguros</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span>Equipo</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span>Contacto</span></a></li>
+                        <div class="card-content py-2"><a class="facebook" href="#"><i
+                            class="bi bi-facebook icn-sm primary-text-color"></i></a><a class="instagram"
+                        href="#"><i class="bi bi-instagram icn-sm primary-text-color"
+                            style="margin-left: 20px"></i></a><a class="twitter" href="#"><i
+                            class="bi bi-twitter icn-sm primary-text-color" style="margin-left: 20px"></i></a>
                     </ul>
                     <ul class="navbar-nav mt-4 mt-lg-0 ms-auto align-items-center">
                         <li class="nav-item ms-lg-4 mt-4 mt-lg-0"><button class="btn primary-color"><span
@@ -41,6 +46,7 @@
                     </ul>
                 </div>
             </nav>
+            
         </div>
         <div class="container py-6 py-lg-10">
             <div class="row justify-content-between align-items-stretch">
@@ -99,105 +105,97 @@
             <div class="row align-items-stretch mt-5 mt-md-8">
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="data:image/jpeg;base64,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"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://segurointeligente.mx/blog/wp-content/uploads/2020/12/seguro-auto-2.jpg"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Automóvil</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Protección financiera para vehículos y accidentes automovilísticos.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.2.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://www.andresycia.com/wp-content/uploads/2021/12/seguro-de-vida-dotal.jpg.webp"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Vida</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Beneficio económico para beneficiarios en caso de fallecimiento.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.3.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://www.barron.com.mx/wp-content/uploads/2020/12/10-razones-para-empezar-a-ahorrar-hoy-y-vivir-el-retiro-de-tus-suenos.jpg"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Retiro</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Ahorro para garantizar ingresos durante la jubilación.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.4.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://cdn-3.expansion.mx/dd/a1/cd21416b426e8988cf7caf1bca17/istock-649856154.jpg"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Gastos médicos mayores</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Cobertura para costos médicos y hospitalarios significativos.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.4.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://img.freepik.com/foto-gratis/companeros-amigos-bolsa-escuela-educacion_53876-137717.jpg?w=2000"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
-                                class="h6 light-text-color" href="#">Salud</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                                class="h6 light-text-color" href="#">Educación</a>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Ahorro para la educación de hijos.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.4.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbq-Z_PQTj7Q-45cum_YwIMeGDbQ_gfAB_CQ&usqp=CAU"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Hogar</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Protección para vivienda y pertenencias ante riesgos.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.4.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/noticias/mascotas-preferidas-espanoles.jpg"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Mascotas</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Cobertura médica para cuidado veterinario de mascotas.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span>Me interesa</span></button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card-item cover rounded dark d-flex align-items-end">
-                        <div class="media bg-cover"><img class="cover" src="../img/post.4.jpg"></img>
+                        <div class="media bg-cover"><img class="cover" src="https://augecorp.com.mx/wp-content/uploads/2019/11/c952ce98511535572893_standard_desktop_medium_retina.jpeg"></img>
                             <div class="filter"></div>
                         </div>
                         <div class="card-content" style="margin-top: 60%; padding: 20px 20px"><a
                                 class="h6 light-text-color" href="#">Otros</a>
-                            <h4 class="h4 light-text-color" style="margin-top: 15px">Life Tips From Top Ten
-                                Adventure Travelers</h4><button class="btn primary-color btn-round "
-                                style="margin-top: 15px"><span>View Project</span></button>
+                            <h4 class="h4 light-text-color" style="margin-top: 15px">Diversos tipos de coberturas personalizadas según necesidades individuales.</h4><button class="btn primary-color btn-round "
+                                style="margin-top: 15px"><span></span>Me interesa</button>
                         </div>
                     </div>
                 </div>
@@ -209,9 +207,7 @@
             <div class="row justify-content-center">
                 <div class="text-center col-lg-6">
                     <h2 class="h2 light-text-color">Equipo</h2>
-                    <p class="paragraph light-text-color" style="margin-top: 10px">Problems trying to resolve the
-                        conflict between
-                        the two major realms of Classical physics: Newtonian mechanics </p>
+                    <p class="paragraph light-text-color" style="margin-top: 10px">Juntos, construyendo un futuro protegido y lleno de posibilidades.</p>
                 </div>
             </div>
             <div class="row justify-content-center align-items-stretch mt-5 mt-md-7">
@@ -219,7 +215,7 @@
                     <div class="rounded position-relative" style="padding: 20px 0">
                         <div class="card-content light-background-color ms-sm-5" style="padding: 30px 40px">
                             <div>
-                                <h3 class="h3 text-color">Regina Miles</h3>
+                                <h3 class="h3 text-color">Alberto Figueroa Moran</h3>
                                 <h6 class="h6 text-color" style="margin-top: 5px">Designer</h6>
                             </div>
                             <div class="stars" style="margin-top: 15px"><i
@@ -228,13 +224,7 @@
                                     class="bi bi-star-fill icn-sm text-warning" style="margin-left: 5px"></i><i
                                     class="bi bi-star-fill icn-sm text-warning" style="margin-left: 5px"></i><i
                                     class="bi bi-star icn-sm text-warning" style="margin-left: 5px"></i></div>
-                            <p class="paragraph second-text-color" style="margin-top: 15px">This proved to be impossible
-                                using the traditional
-                                concepts of space and time. Einstein developed a
-                                new view of time first and then space. This proved
-                                to be impossible using the traditional concepts of
-                                space and time. Einstein developed a new view
-                                of time first and then space.</p>
+                            <p class="paragraph second-text-color" style="margin-top: 15px">Apasionado por ayudar a las personas a proteger lo que más valoran, es un comunicador empático y experto en brindar asesoramiento personalizado para encontrar la mejor cobertura.</p>
                         </div>
                         <div class="circle-box circle-md position-absolute d-none d-sm-block"
                             style="left: 0; top: 50px"><img class="cover" src="../img/user.1.jpg"></img></div>
@@ -244,7 +234,7 @@
                     <div class="rounded position-relative" style="padding: 20px 0">
                         <div class="card-content light-background-color ms-sm-5" style="padding: 30px 40px">
                             <div>
-                                <h3 class="h3 text-color">Regina Miles</h3>
+                                <h3 class="h3 text-color">Ana Griselda Gonzales</h3>
                                 <h6 class="h6 text-color" style="margin-top: 5px">Designer</h6>
                             </div>
                             <div class="stars" style="margin-top: 15px"><i
@@ -253,14 +243,8 @@
                                     class="bi bi-star-fill icn-sm text-warning" style="margin-left: 5px"></i><i
                                     class="bi bi-star-fill icn-sm text-warning" style="margin-left: 5px"></i><i
                                     class="bi bi-star icn-sm text-warning" style="margin-left: 5px"></i></div>
-                            <p class="paragraph second-text-color" style="margin-top: 15px">This proved to be impossible
-                                using the traditional
-                                concepts of space and time. Einstein developed a
-                                new view of time first and then space. This proved
-                                to be impossible using the traditional concepts of
-                                space and time. Einstein developed a new view
-                                of time first and then space.</p>
-                        </div>
+                            <p class="paragraph second-text-color" style="margin-top: 15px">Mi misión es ser tu apoyo incondicional en momentos difíciles, trabajando incansablemente para agilizar y resolver tus reclamaciones con prontitud y empatía.</p>
+                        </div>n 
                         <div class="circle-box circle-md position-absolute d-none d-sm-block"
                             style="left: 0; top: 50px"><img class="cover" src="../img/user.2.jpg"></img></div>
                     </div>
@@ -279,58 +263,66 @@
                 <div class="col-lg-7">
                     <div class="round py-5 text-center text-lg-start">
                         <div>
-                            <h5 class="h5 text-color">Contact Us</h5>
-                            <h2 class="h2 text-color" style="margin-top: 10px">Make an Appointment</h2>
+                            <h5 class="h5 text-color">Agendar cita</h5>
+                            <h2 class="h2 text-color" style="margin-top: 10px">Agenda una cita</h2>
                         </div>
                         <div class="card-content" style="margin-top: 40px">
-                            <div class="row">
-                                <div class="form-group col-md-6"><input type="text" class="form-control" type="text"
-                                        placeholder="Full Name * "></input type="text"></div>
-                                <div class="form-group col-md-6 mt-3 mt-md-0"><input type="text" class="form-control"
-                                        type="text" placeholder="Email * "></input type="text"></div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="form-group col-md-6"><select class="form-select">
-                                        <option>Please Select</option><svg width="8" height="14" viewBox="0 0 8 14"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M 0 12 L 5 7 L 0 2 L 1 0 L 8 7 L 1 14 L 0 12 Z"
-                                                fill="rgb(115, 115, 115)" />
-                                        </svg>
-                                        <option>List Entry # 1</option>
-                                        <option>List Entry # 2</option>
-                                        <option>List Entry # 3</option>
-                                        <option>List Entry # 4</option>
-                                        <option>List Entry # 5</option>
-                                    </select></div>
-                                <div class="form-group col-md-6 mt-3 mt-md-0"><select class="form-select">
-                                        <option>4:00 Available</option><svg width="8" height="14" viewBox="0 0 8 14"
-                                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M 0 12 L 5 7 L 0 2 L 1 0 L 8 7 L 1 14 L 0 12 Z"
-                                                fill="rgb(115, 115, 115)" />
-                                        </svg>
-                                        <option>List Entry # 1</option>
-                                        <option>List Entry # 2</option>
-                                        <option>List Entry # 3</option>
-                                        <option>List Entry # 4</option>
-                                        <option>List Entry # 5</option>
-                                    </select></div>
-                            </div><textarea class="form-control" placeholder="Message"
-                                style="margin-top: 20px"></textarea>
-                        </div><button class="btn primary-color" style="margin-top: 40px"><span>Book
-                                Appointment</span></button>
+                            <form id="appointment-form">
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" name="nombre" placeholder="Nombre Completo">
+                                    </div>
+                                    <div class="form-group col-md-6 mt-3 mt-md-0">
+                                        <input type="text" class="form-control" name="correo" placeholder="Correo">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" name="telefono" placeholder="Número de teléfono">
+                                    </div>
+                                    <div class="form-group col-md-6 mt-3 mt-md-0">
+                                        <input type="text" class="form-control" name="ciudad" placeholder="Ciudad">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="form-group col-md-6">
+                                        <select class="form-select" name="tipoSeguro">
+                                            <option>Tipo de seguro de tu interés</option>
+                                            <option>Seguro de Auto</option>
+                                            <option>Seguro de Vida</option>
+                                            <option>Seguro de Hogar</option>
+                                            <option>Seguro de Salud</option>
+                                            <option>Seguro de Negocios</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-3 mt-md-0">
+                                        <select class="form-select" name="horario">
+                                            <option>Horario disponible</option>
+                                            <option>10:00 AM</option>
+                                            <option>12:00 PM</option>
+                                            <option>2:00 PM</option>
+                                            <option>4:00 PM</option>
+                                            <option>6:00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <textarea class="form-control" name="mensaje" placeholder="Mensaje" style="margin-top: 20px"></textarea>
+                                <button type="submit" class="btn primary-color" style="margin-top: 40px">
+                                    <span>Agendar Cita</span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <footer>
         <div class="position-relative light-gray-1">
             <div class="container py-4">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-8 mb-4 mb-md-0">
-                        <h3 class="h3 text-color">Consulting Agency For Your Business</h3>
-                        <p class="paragraph second-text-color" style="margin-top: 10px">the quick fox jumps over the
-                            lazy dog</p>
+                        <h3 class="h3 text-color">¿La consulta es para tu negocio? <strong>Contactanos</strong></h3>
+                        <p class="paragraph second-text-color" style="margin-top: 10px">Atención especializada en empresas</p>
                     </div>
                     <div class="col-md-3 text-md-center"><button class="btn primary-color"><span
                                 class="btn-text">Contact Us</span></button></div>
@@ -397,7 +389,7 @@
             <div class="container py-4">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-7 mb-4 mb-md-0">
-                        <h6 class="h6 second-text-color">Made With Love By Figmaland All Right Reserved </h6>
+                        <h6 class="h6 second-text-color">Derecho reservados por AFM Seguros. <br><br> Web Design Juan Pablo Figueroa Moran</h6>
                     </div>
                     <div class="col-md-3 text-start text-md-center">
                         <div class="card-content py-2"><a class="facebook" href="#"><i
